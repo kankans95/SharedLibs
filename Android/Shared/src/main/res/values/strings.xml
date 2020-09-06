@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="phone_regex">"^[0-9\\+\\-]+$"</string>
+    <string name="email_regex">"^[0-9a-zA-Z_\\-\\.]+@[0-9a-zA-Z_\\-]+(\\.[0-9a-zA-Z_\\-]+)*$"</string>
+    <string name="business_name_regex">"^((?![\\^!@#$*~[&lt;][>] ?]).)((?![\\^!@#$*~?[&lt;][>]]).)*((?![\\^!@#$*~ ?[&lt;][>]]).)$"</string>
+    <string name="business_id_regex">"^[0-9a-zA-Z\\-]+$"</string>
+    <string name="street_regex">"^[0-9a-zA-Z\\-_,\\.[&amp;]\\s]+$"</string>
+    <string name="suburb_regex">"^[0-9a-zA-Z\\-\\s]+$"</string>
+    <string name="city_regex">"^[0-9a-zA-Z\\-\\s]+$"</string>
+    <string name="state_regex">"^[0-9a-zA-Z\\-\\s]+$"</string>
+    <string name="password_regex">"^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$"</string>
+    <string name="zipcode_regex">"^[0-9]+$"</string>
+    <string name="error_field_required">This field is required.</string>
+    <string name="reg_error_invalid_email">Invalid email format</string>
+    <string name="reg_error_email_not_match">Email addresses don\'t match</string>
+    <string name="reg_error_password_not_match">Password must contain at least one letter, at least one number, and be longer than six characters.</string>
+    <string name="reg_error_invalid_phone">Phone number must only contain +, - and numbers.</string>
+    <string name="reg_error_business_name">The business name you entered contains invalid characters.</string>
+    <string name="reg_error_business_id">The business id you entered contains invalid characters.</string>
+    <string name="reg_error_street">The address you entered contains invalid characters.</string>
+    <string name="reg_error_suburb">The suburb you entered contains invalid characters.</string>
+    <string name="reg_error_city">The city you entered contains invalid characters.</string>
+    <string name="reg_error_state">The state you entered contains invalid characters.</string>
+    <string name="reg_error_zipcode">Numbers only</string>
+    <string name="error_invalid_country">Please select a country</string>
+    <string name="login_error_message">Your log in attempt was unsuccessful. Please try again later.</string>
+    <string name="background_network_error">Please check your internet connection.</string>
+    <string name="network_error_message">Please check your internet connection and try again later.</string>
+    <string name="generic_error_message">We are unable to validate your information. Please try again later.</string>
+    <string name="dialog_button_ok">OK</string>
+    <string name="dialog_button_yes">Yes</string>
+    <string name="dialog_button_no">NO</string>
+    <string name="action_logout">Log Out</string>
+    <string name="message_loading">Loading...</string>
+</resources>

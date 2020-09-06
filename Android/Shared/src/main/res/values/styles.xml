@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BlockButtonPrimary" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/touch_item_margin</item>
+    </style>
+
+    <style name="BlockButtonSecondary" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/touch_item_margin</item>
+    </style>
+
+    <style name="LoadingDialogTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/dialogBackground</item>
+    </style>
+</resources>
